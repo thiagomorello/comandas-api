@@ -3,7 +3,6 @@ import express, { Response, Request, NextFunction } from 'express'
 import cors from 'cors'
 import 'express-async-errors'
 import { routes } from './routes'
-import { database } from './repositories/database'
 import { initializeSocket } from './repositories/socket'
 import http from 'http'
 
